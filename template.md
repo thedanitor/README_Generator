@@ -8,7 +8,8 @@ ${description}
 * [Usage](#usage)
 <!-- * [Credits](#credits) -->
 * [License](#license)
-
+* [Contributing](#contributing)
+* [Tests](#tests)
 ## Installation
 
 ## Usage
@@ -16,3 +17,7 @@ ${description}
 <!-- ## Credits? -->
 
 ## License
+
+## Contributing
+
+## Tests
