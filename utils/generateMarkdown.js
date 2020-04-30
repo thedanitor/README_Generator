@@ -3,6 +3,7 @@ function generateMarkdown(data) {
 # ${data.title}
 
 ${data.description}
+
 ![Profile Photo](${data.photo}=250x) 
 
 ## Table of Contents
@@ -20,6 +21,8 @@ ${data.description}
 <!-- ## Credits? -->
 
 ## License
+
+
 
 ## Contributing
 
