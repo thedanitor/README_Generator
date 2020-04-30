@@ -4,7 +4,7 @@ function generateMarkdown(data) {
 
 ${data.description}
 
-![Profile Photo](${data.photo}=250x) 
+<img src="${data.photo}" alt="Profile Photo" width="200px"/>
 
 ## Table of Contents
 
