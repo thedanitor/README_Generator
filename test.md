@@ -1,9 +1,9 @@
-function generateMarkdown(data) {
-  return `
-# ${data.title}
 
-${data.description}
-![Profile Photo](${data.photo}=250x) 
+# readme
+
+readme
+
+![Profile Photo](https://avatars0.githubusercontent.com/u/60050474?v=4=250x) 
 
 ## Table of Contents
 
@@ -26,7 +26,3 @@ ${data.description}
 ## Tests
 
 
-`;
-}
-
-module.exports = generateMarkdown;

@@ -1,6 +1,7 @@
-# ${title}
+# ${data.title}
 
-${description}
+${data.description}
+${data.photo}
 
 ## Table of Contents
 
