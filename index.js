@@ -19,6 +19,17 @@ const questions = [
     type: "input",
     name: "github",
     message: "What is your Github username?"
+  },
+  {
+    type: "list",
+    message: "What kind of license do you want your project to have?",
+    name: "license",
+    choices: [
+      "MIT",
+      "GNU GPLv3",
+      "Unlicense",
+      "Other (you will need to add it once your README is created)"
+    ]
   }
 //   {
 //     type: "input",
