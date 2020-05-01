@@ -2,7 +2,8 @@ var inquirer = require("inquirer");
 var fs = require('fs');
 var axios =require('axios');
 const generateMarkdown = require("./utils/generateMarkdown");
-
+var licenseType = "";
+var badges = "";
 
 const questions = [
   {
@@ -28,6 +29,7 @@ const questions = [
       "MIT",
       "GNU GPLv3",
       "Unlicense",
+      "WTFPL",
       "Other (you will need to add it once your README is created)"
     ]
   }
@@ -83,19 +85,15 @@ function writeToFile(fileName, data) {
 
 function init() {
   inquirer.prompt(questions).then(answers => {
+    if (answers.license === "MIT") {
+     var licenseType = "This project is licensed under the MIT license";
+      var badges = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    }
+    console.log(licenseType, badges);
     console.log(answers);
     console.log(answers.github);
     console.log(answers.license);
-  // function licenseBadge () {
-  //   if(answers.license === "MIT") {
-  //     let licenseType = "This project is licensed under the MIT license";
-  //     let badges = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
-  //   } else {
-  //     let licenseType = "This project has no license";
-  //     let badges = "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)"
-  //   }
-  // }
-  // licenseBadge();
+  
     let data = {...answers}
 
     const queryUrl = `https://api.github.com/users/${answers.github}`; 
