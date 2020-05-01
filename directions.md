@@ -1,3 +1,20 @@
+Licenses
+https://choosealicense.com/licenses/
+
+Badges
+https://gist.github.com/artem-solovev/e1602722f84835f35daef4dfb3df5500
+
+https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+
+
+
+
+
+
+
+
+
+
 # Unit 09 Node.js and ES6+ Homework: Good README Generator
 
 Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
