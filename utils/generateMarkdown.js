@@ -1,26 +1,27 @@
+  // let licenseType = "This project has no license";
+  // let badges = "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)"
+
+function licenseBadge (data) {
+  if(data.license === "MIT") {
+    data.licenseType = "This project is licensed under the MIT license";
+    data.badges = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+  } else {
+    data.licenseType = "This project has no license";
+    data.badges = "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)"
+  }
+}
 
 
 
 function generateMarkdown(data) {
 
-//   let licenseType = "This project has no license";
-//   let badges = "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)"
-
-// function licenseBadge () {
-// if(${answers.license} === "MIT") {
-//   let licenseType = "This project is licensed under the MIT license";
-//   let badges = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
-// } else {
-//   let licenseType = "This project has no license";
-//   let badges = "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)"
-// }
-// }
-// licenseBadge();
+  licenseBadge(data);
 
   return `
 # ${data.title}
 
 ${data.licenseType}
+${data.badges}
 
 ${data.description}
 

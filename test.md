@@ -1,9 +1,10 @@
 
-# the
+# new 
 
-undefined
+This project is licensed under the MIT license
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-proj
+stuff
 
 <img src="https://avatars0.githubusercontent.com/u/60050474?v=4" alt="Profile Photo" width="200px"/>
 
