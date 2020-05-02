@@ -18,7 +18,6 @@ function licenseBadge (data) {
   }
 }
 
-
 function generateMarkdown(data) {
 
   licenseBadge(data);
@@ -31,6 +30,7 @@ ${data.badges}
 ${data.url}
 
 ${data.description}
+The generated README file is intended to be a template and will likely require some additions specific to the repository.
 
 ## Table of Contents
 

@@ -12,7 +12,7 @@ const questions = [
 {
   type: "input",
   name: "url",
-  message: "What is the URL to the project?"
+  message: "What is the URL to the repository?"
 },
 {
     type: "input",
@@ -38,7 +38,7 @@ const questions = [
       "GNU GPLv3",
       "WTFPL",
       "Unlicense",
-      "Other (you will need to add it once your README is created)"
+      "None"
     ]
   },
   {
@@ -81,10 +81,6 @@ function writeToFile(fileName, data) {
 
 function init() {
   inquirer.prompt(questions).then(answers => {
-    // console.log(licenseType, badges);
-    // console.log(answers);
-    // console.log(answers.github);
-    // console.log(answers.license);
   
     let data = {...answers}
 
@@ -92,14 +88,10 @@ function init() {
     console.log(queryUrl);
 
     axios.get(queryUrl).then(function(response) {
-      // console.log(response.data);
-      // console.log(response.data.url);
-      // console.log(response.data.email);
-      // console.log(response.data.avatar_url);
       data.photo = response.data.avatar_url;
-      // console.log(`Combined inputs` , data);
+      console.log(`Combined inputs` , data);
       const markdown = generateMarkdown(data);
-      writeToFile("test.md", markdown);
+      writeToFile("README.md", markdown);
   
     })
     .catch(err => {
