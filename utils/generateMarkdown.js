@@ -54,6 +54,8 @@ ${data.licenseType}
 
 ## Contributing
 
+${data.contribute}
+
 ## Tests
 
 To test the project, run ${data.tests} on the command line.

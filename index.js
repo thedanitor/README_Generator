@@ -44,12 +44,12 @@ const questions = [
   {
     type: "input",
     name: "usage",
-    message: "How do you use this project?"
+    message: "How does the user use this project?"
   },
   {
     type: "input",
     name: "install",
-    message: "What commands do you use to intall this project?",
+    message: "What commands would the user need to intall this project?",
     default: "npm i"
   },
   {
@@ -57,6 +57,11 @@ const questions = [
     name: "tests",
     message: "How would the user test this project?",
     default: "npm test"
+  },
+  {
+    type: "input",
+    name: "contribute",
+    message: "How would the user contribute to this project?",
   },
   {
     type: "input",
