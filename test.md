@@ -1,10 +1,9 @@
 
-# new 
+# new proj
 
-This project is licensed under the MIT license
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
-stuff
+readme generator
 
 <img src="https://avatars0.githubusercontent.com/u/60050474?v=4" alt="Profile Photo" width="200px"/>
 
@@ -12,25 +11,27 @@ stuff
 
 * [Installation](#installation)
 * [Usage](#usage)
-<!-- * [Credits](#credits) -->
+* [Credits](#credits)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
 ## Installation
 
-To install the necessary dependencies, run the following commnand:
-
+To install the necessary dependencies, run npm i on the commnand line.
 
 ## Usage
 
-<!-- ## Credits? -->
+fdsa
 
 ## License
 
-
+This project is licensed under the GNU GPLv3 license
 
 ## Contributing
 
 ## Tests
 
+## Questions
+
+## Credits
 

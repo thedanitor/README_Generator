@@ -28,10 +28,20 @@ const questions = [
     choices: [
       "MIT",
       "GNU GPLv3",
-      "Unlicense",
       "WTFPL",
+      "Unlicense",
       "Other (you will need to add it once your README is created)"
     ]
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "How do you use this project?"
+  },
+  {
+    type: "input",
+    name: "install",
+    message: "What commands do you use to intall this project?"
   }
 //   {
 //     type: "input",
