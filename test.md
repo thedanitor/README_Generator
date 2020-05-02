@@ -1,9 +1,9 @@
 
-# new proj
+# fewawe
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-readme generator
+fewafew
 
 <img src="https://avatars0.githubusercontent.com/u/60050474?v=4" alt="Profile Photo" width="200px"/>
 
@@ -17,15 +17,15 @@ readme generator
 * [Tests](#tests)
 ## Installation
 
-To install the necessary dependencies, run npm i on the commnand line.
+To install the necessary dependencies, run fjeiwaop on the commnand line.
 
 ## Usage
 
-fdsa
+fjewiaop
 
 ## License
 
-This project is licensed under the GNU GPLv3 license
+This project is licensed under the MIT license
 
 ## Contributing
 
@@ -33,5 +33,9 @@ This project is licensed under the GNU GPLv3 license
 
 ## Questions
 
+If you have any questions please find me on Github at undefined.
+
 ## Credits
+
+reawkru
 
