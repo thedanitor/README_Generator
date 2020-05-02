@@ -1,11 +1,11 @@
 
-# fda
+# fdsa
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-fewa
+fdsa
 
-fewa
+fdsa
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ To install the necessary dependencies, run npm i on the commnand line.
 
 ## Usage
 
-fe
+
 
 ## License
 
@@ -31,11 +31,13 @@ This project is licensed under the MIT license
 
 ## Tests
 
+To test the project, run npm test on the command line.
+
 ## Questions
 
-If you have any questions please email me at feaw.
+If you have any questions please email me at fds.
 
-<img src="https://avatars2.githubusercontent.com/u/9362822?v=4" alt="Profile Photo" width="100px"/>
+<img src="https://avatars3.githubusercontent.com/u/6471964?v=4" alt="Profile Photo" width="100px"/>
 
 ## Credits
 

@@ -56,6 +56,8 @@ ${data.licenseType}
 
 ## Tests
 
+To test the project, run ${data.tests} on the command line.
+
 ## Questions
 
 If you have any questions please email me at ${data.email}.
