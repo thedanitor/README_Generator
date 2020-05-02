@@ -1,11 +1,12 @@
 
-# Readme Generator
+# README Generator
 
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
 https://github.com/thedanitor/README_Generator
 
-Allows user to create a README by prompting with questions
+This generator allows user to create a README.md file for their repo by answering questions on the command line.
+The generated README file is intended to be a template and will likely require some additions specific to the repository.
 
 ## Table of Contents
 
@@ -21,7 +22,7 @@ To install the necessary dependencies, run npm i on the commnand line.
 
 ## Usage
 
-Answer the question prompts to have a README.md file created for your repo.
+Run node index.js on the command line and answer the prompts to create a README file for the repository.
 
 ## License
 
@@ -29,7 +30,7 @@ This project is licensed under the WTFPL license
 
 ## Contributing
 
-For contributions, email me (see below)
+For contributions please email me (see below).
 
 ## Tests
 
@@ -43,5 +44,5 @@ If you have any questions please email me at danmweikart@gmail.com.
 
 ## Credits
 
-UW Coding Bootcamp
+Author Dan Weikart would like to thank UW Coding Bootcamp.
 
