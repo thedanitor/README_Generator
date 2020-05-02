@@ -18,29 +18,19 @@ function licenseBadge (data) {
   }
 }
 
-// function contacter (data) {
-//   console.log(data.email);
-//   if (data.email !== null) {
-//     data.contact = "email me at " + data.email;
-//   } else {
-//     data.contact = "find me on Github at " + data.url;
-//   }
-// }
-
 
 function generateMarkdown(data) {
 
   licenseBadge(data);
-  contacter(data);
 
   return `
 # ${data.title}
 
 ${data.badges}
 
-${data.description}
+${data.url}
 
-<img src="${data.photo}" alt="Profile Photo" width="200px"/>
+${data.description}
 
 ## Table of Contents
 
@@ -68,7 +58,9 @@ ${data.licenseType}
 
 ## Questions
 
-If you have any questions please ${data.contact}.
+If you have any questions please email me at ${data.email}.
+
+<img src="${data.photo}" alt="Profile Photo" width="100px"/>
 
 ## Credits
 

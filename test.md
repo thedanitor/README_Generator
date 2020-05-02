@@ -1,11 +1,11 @@
 
-# fewawe
+# fda
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-fewafew
+fewa
 
-<img src="https://avatars0.githubusercontent.com/u/60050474?v=4" alt="Profile Photo" width="200px"/>
+fewa
 
 ## Table of Contents
 
@@ -17,11 +17,11 @@ fewafew
 * [Tests](#tests)
 ## Installation
 
-To install the necessary dependencies, run fjeiwaop on the commnand line.
+To install the necessary dependencies, run npm i on the commnand line.
 
 ## Usage
 
-fjewiaop
+fe
 
 ## License
 
@@ -33,9 +33,11 @@ This project is licensed under the MIT license
 
 ## Questions
 
-If you have any questions please find me on Github at undefined.
+If you have any questions please email me at feaw.
+
+<img src="https://avatars2.githubusercontent.com/u/9362822?v=4" alt="Profile Photo" width="100px"/>
 
 ## Credits
 
-reawkru
+
 

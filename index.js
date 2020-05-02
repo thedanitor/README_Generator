@@ -10,6 +10,11 @@ const questions = [
   message: "What is the name of your project?"
 },
 {
+  type: "input",
+  name: "url",
+  message: "What is the URL to the project?"
+},
+{
     type: "input",
     name: "description",
     message: "Write a brief description of the project."
@@ -18,6 +23,11 @@ const questions = [
     type: "input",
     name: "github",
     message: "What is your Github username?"
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email?"
   },
   {
     type: "list",
@@ -39,7 +49,9 @@ const questions = [
   {
     type: "input",
     name: "install",
-    message: "What commands do you use to intall this project?"
+    message: "What commands do you use to intall this project?",
+    default: "npm i"
+
   },
   {
     type: "input",
@@ -75,7 +87,6 @@ function init() {
       // console.log(response.data.email);
       // console.log(response.data.avatar_url);
       data.photo = response.data.avatar_url;
-      data.email = response.data.email;
       // console.log(`Combined inputs` , data);
       const markdown = generateMarkdown(data);
       writeToFile("test.md", markdown);
